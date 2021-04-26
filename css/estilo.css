@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(12, 18, 70);
+}
+
+.conteudo-jogo {
+    position: absolute;
+    left: 100px;
+    top: 25px;
+    height: 90%;
+    width: 60%;
+    border: 2px black solid;
+    overflow: hidden;
+
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.faixa-pista {
+    width: 3%;
+    background-color: white;
+}
+
+.borda {
+    background-color: #c90000;
+    width: 10%;
+}
+
+.pista1, .pista2, .pista3 {
+    background-color: #363636;
+    width: 30%;
+}
+
+.faixa-pista-central {
+    width: 100%;
+    height: 60px;
+    background-color: #363636;
+    margin-top: 50px;
+}
+
+.slot-carro {
+    position: absolute;
+    border: white 1px solid;
+    width: 20%;
+    height: 100px;
+    margin: 0px 22px;
+    background-color: white;
+    top: 75%;
+}
+
+.bloco1, .bloco2, .bloco3 {
+    position: absolute;
+    border: white 1px solid;
+    width: 20%;
+    height: 100px;
+    margin: 0px 22px;
+    background-color: rgb(0, 2, 94);
+
+    top: -110px;
+}
+
+.detalhes-nivel {
+    position: absolute;
+    right: 70px;
+    top: 200px;
+
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: rgb(205, 214, 173);
+
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px black;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+
+    font-size: 35px;
+    border-radius: 20px;
+    background-color: rgb(233, 223, 197);
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+button:hover {
+    background-color: rgb(145, 141, 125);
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: none;
+}
+
+.botoes {
+    position: absolute;
+    right: 80px;
+    top: 500px;
+}
+
+.nome {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    right: 40px;
+    top: 60px;
+    color: white;
+    font-size: 30px;
+}
